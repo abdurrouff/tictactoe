@@ -69,8 +69,6 @@ main {
 .player-container {
   display: flex;
   flex-direction: row;
-  /* gap: 3px; */
-  /* background: blue; */
 }
 .player {
   height: 13vh;
