@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TicTacToe</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
   </head>
   <body>
-    <div class="container">
+    <main>
       <header>
         <h1>Tic Tac Toe</h1>
         <div class="nav-btn">
@@ -26,33 +26,26 @@
           </button>
         </div>
       </header>
-      <main>
-        <section class="section1">
-          <div class="btn-container">
-            <button type="button" class="tic-tac-toe-btn" id="1"></button>
-            <button type="button" class="tic-tac-toe-btn" id="2"></button>
-            <button type="button" class="tic-tac-toe-btn" id="3"></button>
-            <button type="button" class="tic-tac-toe-btn" id="4"></button>
-            <button type="button" class="tic-tac-toe-btn" id="5"></button>
-            <button type="button" class="tic-tac-toe-btn" id="6"></button>
-            <button type="button" class="tic-tac-toe-btn" id="7"></button>
-            <button type="button" class="tic-tac-toe-btn" id="8"></button>
-            <button type="button" class="tic-tac-toe-btn" id="9"></button>
+      <div class="btn-container">
+        <a href="/start.html">
+          <button>Create a new game</button>
+        </a>
+        <div class="OR">
+          <i class="fa-solid fa-o"></i>
+          <i class="fa-solid fa-r"></i>
+        </div>
+        <div class="input-section">
+          <h3>Join game via invite link...</h3>
+          <div class="input-text">
+            <label for="code">Input Code:</label>
+            <input type="text" />
           </div>
-        </section>
-        <section class="section2">
-          <div class="player-container">
-            <div class="player one">
-              <i class="fa-solid fa-xmark"></i>
-              <p>Player 1</p>
-            </div>
-            <div class="player two">
-              <i class="fa-solid fa-o"></i>
-              <p>Player 2</p>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
+          <button>Submit</button>
+        </div>
+      </div>
+      <!-- <footer>
+        <h3>Developed by Dr.A Codes</h3>
+      </footer> -->
+    </main>
   </body>
 </html>
